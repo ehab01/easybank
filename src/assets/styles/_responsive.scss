@@ -1,0 +1,49 @@
+@media(max-width: 375px) {
+    section#nav form{
+      display: none;
+    }
+    .text-wrapper{
+        text-align: center;
+        margin-top:5%;
+        margin-bottom:5%;
+    }
+    .image1 img{
+      content: url('../images/bg-intro-mobile.svg');
+  }
+  .image2 img{
+      margin-top: -98px;
+      height: 300px;
+      width: 289px;
+  }
+  .catalog-wrap{
+      text-align: center!important;
+  }
+  .why-us{
+      text-align: center!important;
+  }
+  .latest{
+      text-align: center;
+  }
+  .card-img-top {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+  .footer-icons{
+      text-align: center;
+  }
+  .logo-ft{
+      justify-content: center;
+  }
+  .footer-nav{
+      text-align: center;
+  }
+  .copyright{
+      text-align-last: center;
+  }
+    }
+    @media(max-width: 992px) {
+        section#nav form{
+            display: none;
+          }
+    }
